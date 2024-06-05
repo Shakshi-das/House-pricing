@@ -1,1 +1,2 @@
-# House-pricing
+# House-pricing 
+Algorithm to predict house prices
