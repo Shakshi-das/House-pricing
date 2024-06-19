@@ -25,3 +25,17 @@ from xgboost import XGBRegressor
 from scipy.stats import skew, norm
 from scipy.special import boxcox1p
 from scipy.stats import boxcox_normmax
+
+#Misc
+from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import KFold, cross_val_score
+from sklearn.metrics import mean_squared_error
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import LabelEncoder
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import scale
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import RobustScaler
+from sklearn.decomposition import PCA
+
+pd.set_option('display.max_columns', None)
