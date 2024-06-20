@@ -39,3 +39,8 @@ from sklearn.preprocessing import RobustScaler
 from sklearn.decomposition import PCA
 
 pd.set_option('display.max_columns', None)
+
+#Examining The Data:
+train = pd.read_csv('train.csv')
+test = pd.read_csv('test.csv')
+train.head()
