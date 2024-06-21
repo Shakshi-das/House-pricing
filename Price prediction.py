@@ -44,3 +44,9 @@ pd.set_option('display.max_columns', None)
 train = pd.read_csv('train.csv')
 test = pd.read_csv('test.csv')
 train.head()
+
+# Skewness and Kurtosis:
+print("Skewness: %f" % train['SalePrice'].skew())
+print("Kurtosis: %f" % train['SalePrice'].kurt())
+Skewness: 1.882876
+Kurtosis: 6.536282
