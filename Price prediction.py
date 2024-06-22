@@ -50,3 +50,6 @@ print("Skewness: %f" % train['SalePrice'].skew())
 print("Kurtosis: %f" % train['SalePrice'].kurt())
 Skewness: 1.882876
 Kurtosis: 6.536282
+
+# Visualizing the variables:
+sns.pairplot(train)
