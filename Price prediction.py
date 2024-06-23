@@ -1,16 +1,16 @@
 Importing Libraries:
 
-# Essentials
+# Essential libraries
 import numpy as np
 import pandas as pd
 import datetime
 import random
 
-# Plots
+# Plots:
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Models
+# Models:
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, AdaBoostRegressor, BaggingRegressor
 from sklearn.kernel_ridge import KernelRidge
 from sklearn.linear_model import Ridge, RidgeCV
@@ -21,12 +21,12 @@ import lightgbm as lgb
 from lightgbm import LGBMRegressor
 from xgboost import XGBRegressor
 
-# Stats
+# Stats:
 from scipy.stats import skew, norm
 from scipy.special import boxcox1p
 from scipy.stats import boxcox_normmax
 
-#Misc
+#Misc:
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import KFold, cross_val_score
 from sklearn.metrics import mean_squared_error
